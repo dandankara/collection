@@ -1,0 +1,46 @@
+.materials-search_header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.materials-search_input{
+    display: flex;
+    height: 42px;
+    border: 1px solid #cccc;
+    border-radius: 4px;
+    width: 50%;
+    margin: auto;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+
+.materials-search_header h2{
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.materials-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.createButton{
+    display: inline-block;
+    padding: 16px 24px;
+    width: min-content;
+    border: 0px;
+    color:white;
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    border-color: #ffb200;
+    background-color: #ffb200;
+}
+
+.createButton:hover{
+    background-color: green;
+}

@@ -1,0 +1,33 @@
+.form-cadastro-container {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+ 
+ .button-cadastrar-form{
+    display: inline-block;
+    padding: 16px 24px;
+    width: min-content;
+    border: 0px;
+    color:white;
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    border-color: #ffb200;
+    background-color: #ffb200;
+}
+
+.button-cadastrar-form:hover{
+    background-color: green;
+}
+
+.form-input{
+    display: block;
+    width: 50%;
+    border: 1px solid #c9c9c9;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    outline: none;
+}
